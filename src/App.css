@@ -1,0 +1,33 @@
+body {
+    background: #F2F0F1;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.react-tabs__tab-list {
+    display: flex;
+    justify-content: space-between;
+    border: none  !important;
+    }
+
+    .react-tabs__tab {
+        text-align: center;
+        width: 100%;
+        border-bottom: 1px solid rgb(126, 126, 126) !important;
+        margin: 0 auto;
+        opacity: 0.6;
+    }    
+    .react-tabs__tab--selected {
+        opacity: 1;
+        border: none !important; 
+        border-bottom: 1px solid black !important;
+    }
+
+    .react-tabs {
+        -webkit-tap-highlight-color: transparent;
+
+    }

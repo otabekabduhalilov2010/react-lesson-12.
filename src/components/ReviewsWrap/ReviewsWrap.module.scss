@@ -1,0 +1,19 @@
+
+
+.box5 {
+    border: 2px solid rgb(181, 181, 181);
+    border-radius: 20px;
+    width: 340px;
+    text-align: left;
+    padding: 20px;
+    p {
+     font-weight: 340;
+    }
+}
+
+     
+
+.wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

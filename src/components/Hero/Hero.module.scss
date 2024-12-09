@@ -1,0 +1,50 @@
+  .papawrappera{
+    display: flex;
+    gap: 50px;
+    } 
+    .wrapper {
+        h1 {
+            font-size: 64px;
+            font-weight: 700;
+            line-height: 64px;
+        }
+
+        p {
+            color: rgba(0, 0, 0, 0.6);
+            margin-top: 32px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22px;
+        }
+
+        button {
+            margin-top: 32px;
+            background-color: black;
+            color: white;
+            width: 210px;
+            padding: 15px;
+            border-radius: 30px;
+        }
+
+        h2 {
+            margin-top: 190px;
+            font-size: 50px;
+            font-weight: 700;
+        }
+
+        .pod {
+            display: flex;
+            margin-top: 0px;
+            color: rgba(0, 0, 0, 0.6);
+            font-size: 20px;
+
+        }
+       
+    }
+
+    .card {
+        display: flex;
+        gap: 64px;
+    }
+    
+   
