@@ -1,15 +1,27 @@
-.wrap{
+.wrap {
     display: flex;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
+    margin: 20px;
+
+    @media (max-width: 1030px) {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
-.images{
+.images {
     display: grid;
     grid-template-columns: 1fr 3fr;
     gap: 20px;
 
-    img{
+    @media (max-width: 990px) {
+
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    img {
         width: 100%;
         border-radius: 20px;
         height: 100%;
@@ -17,35 +29,48 @@
         object-fit: cover;
     }
 
-    div{
+    div {
         display: flex;
         flex-direction: column;
         gap: 18px;
+
+
+        @media (max-width: 990px) {
+
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+
+
+        }
+
     }
 }
 
 
-.box{
+.box {
     display: flex;
     flex-direction: column;
     gap: 15px;
     margin-top: 20px;
+   margin: 20px;
 
     div {
         h2 {
             font-size: 40px;
         }
+
         b {
             font-size: 30px;
             font-weight: 500;
         }
+
         s {
             font-size: 30px;
             font-weight: 300;
         }
     }
-    
-   
+
+
 }
 
 
@@ -53,6 +78,7 @@
     display: flex;
     gap: 10px;
     margin-top: 20px;
+
     :nth-child(1) {
         border: solid green;
         width: 40px;
@@ -60,6 +86,7 @@
         background: green;
         border-radius: 50%;
     }
+
     :nth-child(2) {
         border: solid rgb(0, 0, 0);
         width: 40px;
@@ -67,6 +94,7 @@
         background: rgb(0, 0, 0);
         border-radius: 50%;
     }
+
     :nth-child(3) {
         border: solid rgb(255, 174, 0);
         width: 40px;
@@ -82,25 +110,27 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
-        button {
-            width: 100px;
-            height: 45px;
-            border-radius: 20px;
-            border: none;
 
-            &:hover {
-                transition: 0.5s;
-                background-color: black;
-                color: white;
-            }
+    button {
+        width: 100px;
+        height: 45px;
+        border-radius: 20px;
+        border: none;
+
+        &:hover {
+            transition: 0.5s;
+            background-color: black;
+            color: white;
         }
+    }
 }
 
 
 .count {
-   display: flex;
-   gap: 10px;
-   margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+
     button {
         width: 40px;
         border-radius: 10px;
@@ -121,6 +151,5 @@
         height: 40px;
     }
 
-    
-}
 
+}

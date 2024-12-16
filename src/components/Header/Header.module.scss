@@ -30,6 +30,10 @@
     display: flex;
     gap: 20px;
 
+    @media (max-width: 1060px) {
+        display: none;
+    }
+
 
     a {
         color: black;

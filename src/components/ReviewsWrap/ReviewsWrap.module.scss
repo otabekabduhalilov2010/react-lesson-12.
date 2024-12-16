@@ -11,9 +11,28 @@
     }
 }
 
+
+
+.wrapper4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+     
+        @media (max-width: 780px) {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    
+}
+
+
      
 
 .wrap {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+
+
+   
 }
