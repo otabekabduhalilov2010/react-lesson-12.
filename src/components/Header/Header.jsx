@@ -23,7 +23,7 @@ const Header = () => {
                     </Link>
 
                     <div className={s.menu} data-aos="fade-up" data-aos-delay="200">
-                        <Link to="/shop" data-aos="zoom-in" data-aos-delay="300">Shop</Link>
+                        <Link to="/shop" data-aos="down-up" data-aos-delay="300">Shop</Link>
                         <Link to="/on-sale" data-aos="zoom-in" data-aos-delay="400">On Sale</Link>
                         <Link to="/new-arrivals" data-aos="zoom-in" data-aos-delay="500">New Arrivals</Link>
                         <Link to="/brands" data-aos="zoom-in" data-aos-delay="600">Brands</Link>
